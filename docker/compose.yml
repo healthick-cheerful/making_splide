@@ -5,7 +5,7 @@ services:
     container_name: react
     build:
       context: .
-      dockerfile: ./Dockerfiles/build_react/Dockerfile
+      dockerfile: ./Dockerfiles/dev_react/Dockerfile
     volumes: 
       - ./react:/var/react_app
     ports:
